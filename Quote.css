@@ -14,7 +14,7 @@ body{
 }
 .quote-box{
     background: #fff;
-    width: 90%;
+    width: 80%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -97,13 +97,13 @@ body{
 }
 @media screen and (max-width: 468px){
     .quote-box{
-        width: 90%;
+        width: 80%;
     }
     .quote-box h2{
-        font-size: 1.5rem;
+        font-size: 1.9rem;
     }
     .quote-box blockquote{
-        font-size: 1rem;
+        font-size: 1.7rem;
     }
     .quote-box button{
         font-size: 12px;
