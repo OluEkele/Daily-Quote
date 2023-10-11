@@ -95,6 +95,22 @@ body{
     gap: 5px;
     
 }
+@media screen and (max-width: 468px){
+    .quote-box{
+        width: 100%;
+        margin: 50px 30px;
+    }
+    .quote-box h2{
+        font-size: 1rem;
+    }
+    .quote-box blockquote{
+        font-size: 0.5rem;
+    }
+    .quote-box button{
+        font-size: 12px;
+        padding: 0 5px;
+    }
+}
 
 
 
