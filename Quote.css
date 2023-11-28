@@ -14,7 +14,7 @@ body{
 }
 .quote-box{
     background: #fff;
-    width: 80%;
+    width: 60%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -48,10 +48,16 @@ body{
     content: '"';
 
 }
-.quote-box span{
+.quote-box #author{
     display: block;
     margin-top: 10px;
     float: right;
+    position: relative;
+}
+.quote-box #date{
+    display: block;
+    margin-top: 10px;
+    float: left;
     position: relative;
 }
 .quote-box span::before{
@@ -95,7 +101,7 @@ body{
     gap: 5px;
     
 }
-@media screen and (max-width: 468px){
+@media screen and (max-width: 520px){
     .quote-box{
         width: 80%;
     }
